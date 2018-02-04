@@ -1304,16 +1304,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/calendar.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/img\/calendar.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/assets\/img\/call.png": {
 		"ft": 32768,
 		"iS": 2990,
@@ -1324,16 +1314,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/assets\/img\/call.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/img\/call.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/assets\/img\/girl.png": {
 		"ft": 32768,
@@ -1368,16 +1348,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/mac.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/img\/mac.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/assets\/img\/papercut_logo.png": {
 		"ft": 32768,
 		"iS": 1880,
@@ -1400,42 +1370,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/speed.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/img\/speed.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/img\/starter-kit-cover.jpg": {
-		"ft": 16384,
-		"iS": 213168,
-		"oA": 0,
-		"oAP": "\/assets\/img\/starter-kit-cover.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/things_we_do_block.png": {
 		"ft": 32768,
 		"iS": 14394,
 		"oA": 0,
 		"oAP": "\/assets\/img\/things_we_do_block.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/tools.png": {
-		"ft": 32768,
-		"iS": 101654,
-		"oA": 0,
-		"oAP": "\/assets\/img\/tools.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
