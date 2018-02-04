@@ -492,7 +492,8 @@ body {
   clear: left; }
 
 .footer .content {
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 28px; }
 
 .footer hr {
   border-bottom: 1px solid #c1c1c1;
@@ -501,13 +502,13 @@ body {
   margin: 0 auto;
   margin-bottom: 40px; }
 
-.footer .cta a {
+.footer a.cta {
   background-color: #1783EF;
   color: white;
   padding: 12px 20px;
   border-radius: 50px;
-  margin: 0 auto; }
-  .footer .cta a:hover {
+  margin: 0 0 auto; }
+  .footer a.cta:hover {
     cursor: pointer;
     border: 1px solid #1783EF;
     color: #1783EF;
