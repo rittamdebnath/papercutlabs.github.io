@@ -493,7 +493,7 @@ body {
 
 .footer .content {
   margin: 0 auto;
-  margin-bottom: 28px; }
+  margin-bottom: 30px; }
 
 .footer hr {
   border-bottom: 1px solid #c1c1c1;
@@ -507,7 +507,7 @@ body {
   color: white;
   padding: 12px 20px;
   border-radius: 50px;
-  margin: 0 0 auto; }
+  margin: 0 auto; }
   .footer a.cta:hover {
     cursor: pointer;
     border: 1px solid #1783EF;
@@ -516,31 +516,29 @@ body {
     text-decoration: none;
     transition: all .3s ease-in-out; }
 
-.contact-block {
-  border-bottom: 1px solid #cbcbcb;
-  width: 100%;
-  margin-top: -2px; }
-  .contact-block .img-block {
-    margin-bottom: -4px; }
-  .contact-block .company-info {
-    text-align: left; }
-    .contact-block .company-info .content-title {
-      padding-top: 50px;
-      margin-left: 40%;
+.contact-block .img-block {
+  margin-bottom: -4px; }
+
+.contact-block .company-info {
+  text-align: left; }
+  .contact-block .company-info .content-title {
+    padding-top: 50px;
+    margin-left: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2.5;
+    color: #989898;
+    text-transform: uppercase; }
+    .contact-block .company-info .content-title a {
+      text-transform: none;
       font-size: 18px;
-      font-weight: 600;
-      letter-spacing: 2.5;
-      color: #989898;
-      text-transform: uppercase; }
-      .contact-block .company-info .content-title a {
-        text-transform: none;
-        font-size: 18px;
-        color: #333;
-        font-weight: 400;
-        letter-spacing: normal; }
+      color: #333;
+      font-weight: 400;
+      letter-spacing: normal; }
 
 .exit-block {
-  display: inline-block; }
+  display: inline-block;
+  margin-bottom: 20px; }
   .exit-block span {
     margin-left: 35px; }
   .exit-block .social-block {
@@ -554,3 +552,145 @@ body {
         color: #1783EF;
         transition: all .3s ease-in-out;
         cursor: pointer; }
+
+@media only screen and (min-width: 1500px) {
+  .menu {
+    margin-bottom: 50px; }
+  .page-title {
+    margin-bottom: 80px; }
+  .things-we-do {
+    margin-bottom: 80px; }
+    .things-we-do .text-block .block-title {
+      margin-bottom: 40px; }
+    .things-we-do .text-block .text-block-group {
+      margin-bottom: 50px; }
+      .things-we-do .text-block .text-block-group img {
+        display: none; }
+  .value-added-1, .value-added-2 {
+    margin-bottom: 80px; }
+    .value-added-1 .text-block .text-block-group, .value-added-2 .text-block .text-block-group {
+      margin-bottom: 60px; }
+  .footer .text-block {
+    margin-bottom: 50px; }
+    .footer .text-block .block-title {
+      margin-bottom: 20px; }
+      .footer .text-block .block-title .content {
+        margin-bottom: 20px; }
+      .footer .text-block .block-title .cta {
+        margin-top: 20px; }
+  hr.before_exit {
+    margin: 0 0 20px 0; }
+  .exit-block {
+    margin-bottom: 30px; } }
+
+@media only screen and (min-width: 1000px) {
+  .menu {
+    margin-bottom: 50px; }
+  .page-title {
+    margin-bottom: 80px; }
+  .things-we-do {
+    margin-bottom: 80px; }
+    .things-we-do .text-block .block-title {
+      margin-bottom: 40px; }
+    .things-we-do .text-block .text-block-group {
+      margin-bottom: 50px; }
+      .things-we-do .text-block .text-block-group img {
+        display: none; }
+  .value-added-1, .value-added-2 {
+    margin-bottom: 80px; }
+    .value-added-1 .text-block .text-block-group, .value-added-2 .text-block .text-block-group {
+      margin-bottom: 60px; }
+  .footer .text-block {
+    margin-bottom: 50px; }
+    .footer .text-block .block-title {
+      margin-bottom: 20px; }
+      .footer .text-block .block-title .content {
+        margin-bottom: 20px; }
+      .footer .text-block .block-title .cta {
+        margin-top: 20px; }
+  hr.before_exit {
+    margin: 0 0 20px 0; }
+  .exit-block {
+    margin-bottom: 30px; } }
+
+@media only screen and (max-width: 500px) {
+  body .container {
+    width: 90%;
+    margin: 0 auto !important; }
+  body .menu {
+    margin-top: 0;
+    position: absolute;
+    top: 20px;
+    left: 33%; }
+    body .menu .logo {
+      margin: 0 auto; }
+      body .menu .logo span {
+        font-size: 18px; }
+      body .menu .logo img {
+        width: 34px;
+        height: auto; }
+    body .menu .menu-title {
+      display: none; }
+  .page-title .text-block {
+    text-align: center; }
+    .page-title .text-block .block-title {
+      font-size: 16px;
+      margin-bottom: 18px; }
+    .page-title .text-block .head-title {
+      font-size: 18px;
+      margin-bottom: 38px;
+      line-height: 1.6; }
+  .page-title .img-block {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 45px; }
+  .things-we-do .img-block {
+    display: none; }
+  .things-we-do .text-block {
+    text-align: center; }
+    .things-we-do .text-block .block-title {
+      font-style: 15px;
+      margin-bottom: 40px; }
+    .things-we-do .text-block .text-block-group {
+      margin-bottom: 50px; }
+      .things-we-do .text-block .text-block-group .content-title {
+        margin-bottom: 10px; }
+      .things-we-do .text-block .text-block-group .content p {
+        font-size: 14px; }
+      .things-we-do .text-block .text-block-group img {
+        margin-bottom: 30px; }
+  .value-added-1 {
+    margin-bottom: 0; }
+  .value-added-2 {
+    margin-bottom: 40px; }
+  .value-added-1, .value-added-2 {
+    text-align: center; }
+    .value-added-1 .img-block, .value-added-2 .img-block {
+      display: none; }
+    .value-added-1 .text-block .text-block-group .content-title img, .value-added-2 .text-block .text-block-group .content-title img {
+      width: 40px;
+      height: auto; }
+    .value-added-1 .text-block .text-block-group .content-title span, .value-added-2 .text-block .text-block-group .content-title span {
+      font-size: 18px; }
+    .value-added-1 .text-block .text-block-group .content p, .value-added-2 .text-block .text-block-group .content p {
+      font-size: 14px; }
+  .footer .text-block .block-title {
+    margin-bottom: 20px; }
+  .footer .text-block .content p {
+    font-size: 14px;
+    margin-bottom: 30px; }
+  .footer .contact-block {
+    width: 100%;
+    margin-bottom: 40px; }
+    .footer .contact-block .img-block {
+      display: none; }
+    .footer .contact-block .company-info {
+      margin-left: 10%; }
+      .footer .contact-block .company-info .content-title {
+        margin: 0 auto;
+        text-align: center; }
+  hr.before_exit {
+    display: none !important; }
+  .exit-block {
+    display: none !important; } }

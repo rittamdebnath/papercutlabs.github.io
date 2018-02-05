@@ -1069,90 +1069,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/1-tools\/fonts\/SF-UI-Text-Bold.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/css\/1-tools\/fonts\/SF-UI-Text-Bold.otf",
-		"oF": 0
-		},
-	"\/assets\/css\/1-tools\/fonts\/SF-UI-Text-BoldItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/css\/1-tools\/fonts\/SF-UI-Text-BoldItalic.otf",
-		"oF": 0
-		},
-	"\/assets\/css\/1-tools\/fonts\/SF-UI-Text-Heavy.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/css\/1-tools\/fonts\/SF-UI-Text-Heavy.otf",
-		"oF": 0
-		},
-	"\/assets\/css\/1-tools\/fonts\/SF-UI-Text-HeavyItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/css\/1-tools\/fonts\/SF-UI-Text-HeavyItalic.otf",
-		"oF": 0
-		},
-	"\/assets\/css\/1-tools\/fonts\/SF-UI-Text-Light.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/css\/1-tools\/fonts\/SF-UI-Text-Light.otf",
-		"oF": 0
-		},
-	"\/assets\/css\/1-tools\/fonts\/SF-UI-Text-LightItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/css\/1-tools\/fonts\/SF-UI-Text-LightItalic.otf",
-		"oF": 0
-		},
-	"\/assets\/css\/1-tools\/fonts\/SF-UI-Text-Medium.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/css\/1-tools\/fonts\/SF-UI-Text-Medium.otf",
-		"oF": 0
-		},
-	"\/assets\/css\/1-tools\/fonts\/SF-UI-Text-MediumItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/css\/1-tools\/fonts\/SF-UI-Text-MediumItalic.otf",
-		"oF": 0
-		},
-	"\/assets\/css\/1-tools\/fonts\/SF-UI-Text-Regular.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/css\/1-tools\/fonts\/SF-UI-Text-Regular.otf",
-		"oF": 0
-		},
-	"\/assets\/css\/1-tools\/fonts\/SF-UI-Text-RegularItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/css\/1-tools\/fonts\/SF-UI-Text-RegularItalic.otf",
-		"oF": 0
-		},
-	"\/assets\/css\/1-tools\/fonts\/SF-UI-Text-Semibold.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/css\/1-tools\/fonts\/SF-UI-Text-Semibold.otf",
-		"oF": 0
-		},
-	"\/assets\/css\/1-tools\/fonts\/SF-UI-Text-SemiboldItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/css\/1-tools\/fonts\/SF-UI-Text-SemiboldItalic.otf",
-		"oF": 0
-		},
 	"\/assets\/css\/2-basics\/_body-element.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -1293,6 +1209,17 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/img\/brand.png": {
+		"ft": 32768,
+		"iS": 12190,
+		"oA": 0,
+		"oAP": "\/assets\/img\/brand.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/calendar.png": {
 		"ft": 32768,
 		"iS": 1981,
@@ -1304,11 +1231,42 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/calendar.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/calendar.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/call.png": {
 		"ft": 32768,
 		"iS": 2990,
 		"oA": 0,
 		"oAP": "\/assets\/img\/call.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/call.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/call.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/develop.png": {
+		"ft": 32768,
+		"iS": 8012,
+		"oA": 0,
+		"oAP": "\/assets\/img\/develop.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1348,6 +1306,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/mac.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/mac.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/papercut_logo.png": {
 		"ft": 32768,
 		"iS": 1880,
@@ -1370,11 +1338,32 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/speed.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/speed.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/things_we_do_block.png": {
 		"ft": 32768,
 		"iS": 14394,
 		"oA": 0,
 		"oAP": "\/assets\/img\/things_we_do_block.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/tools.png": {
+		"ft": 32768,
+		"iS": 101654,
+		"oA": 0,
+		"oAP": "\/assets\/img\/tools.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1397,6 +1386,17 @@
 		"iS": 12630,
 		"oA": 0,
 		"oAP": "\/assets\/img\/value_added_big_2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/web.png": {
+		"ft": 32768,
+		"iS": 6072,
+		"oA": 0,
+		"oAP": "\/assets\/img\/web.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

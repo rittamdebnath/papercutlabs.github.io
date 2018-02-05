@@ -10,7 +10,7 @@ html
   body
     
     .container
-      .menu.row.mb-50
+      .menu.row
         .logo.col-md-4
           img(src="assets/img/papercut_logo.png", alt="", width="34px" class="img-fluid")
           span Papercutlabs
@@ -20,7 +20,7 @@ html
           a(href="https://rittamdebnath.typeform.com/to/YuMAEP" target="_blank").btn Start a Project
     
     
-      .page-title.row.mb-80
+      .page-title.row
         .text-block.col-md-5
           p.block-title welcome to Papercut
           p.head-title
@@ -29,31 +29,32 @@ html
           img(src="assets/img/head_computer.png", alt="" class="img-fluid")
           
           
-      .things-we-do.row.mb-80#thingsdo
+      .things-we-do.row#thingsdo
         .img-block.col-md-7
           img(src="assets/img/things_we_do_block.png", alt="" class="img-fluid")
-        .text-block.col-md-5.ml-20
-          .block-title.mb-40 things we do
-          .text-block-group.mb-30
+        .text-block.col-md-5
+          .block-title things we do
+          .text-block-group
+            img(class="web_img" src="assets/img/web.png", alt="")
             .content-title web and mobile design
             .content
               p Design resides at the center of who we are. We believe that good design equals great business, realizing a simple and efficient experience for your visitors.
-              
-          .text-block-group.mb-30
+          .text-block-group
+            img(class="brand_img" src="assets/img/brand.png", alt="")
             .content-title Branding and strategy
             .content
               p We make your stories come to life and maintain constant growth for your business while creating your unique brand that falls in place with your vision.
-              
           .text-block-group
+            img(class="develop_img" src="assets/img/develop.png", alt="")
             .content-title development
             .content
               p Front-end development, CMS integration or optimal back-end support – you know we’ve got you covered. We make sure that your site is fast and smart.
 
       
       
-      .value-added-1.row.mb-80
+      .value-added-1.row
         .text-block.col-md-5
-          .text-block-group.mb-60
+          .text-block-group
             .content-title 
               img(src="assets/img/call.png") 
               span You can count on us
@@ -71,11 +72,11 @@ html
           img(src="assets/img/value_added_big_1.png", alt="" class="img-fluid")
         
         
-      .value-added-2.row.mb-80
+      .value-added-2.row
         .img-block.col-md-7
           img(src="assets/img/value_added_big_2.png", alt="" class="img-fluid")
         .text-block.col-md-5
-          .text-block-group.mb-60
+          .text-block-group
             .content-title 
               img(src="assets/img/speed.png", alt="")
               span We scale with you
@@ -91,13 +92,14 @@ html
 
         
         
-      .footer.row.mb-30
-        .text-block.col-md-12.text-center.mb-50
-          .block-title.mb-20 have a project in mind? let's chat
+      .footer.row
+        .text-block.col-md-12.text-center
+          .block-title have a project in mind? let's chat
           hr
           .content.col-md-6
             p We’re ever looking to team up with new and booming companies with a vision to build something great. So if that’s you, hit us up!
-          a(class="cta" href="https://rittamdebnath.typeform.com/to/YuMAEP" target="_blank") Start a Project
+          
+          a.cta(href="https://rittamdebnath.typeform.com/to/YuMAEP" target="_blank") Start a Project
         .contact-block.row
           .img-block.col-md-6
             img(src="assets/img/girl.png", alt="")
@@ -105,31 +107,23 @@ html
             .content-title
               p contact
               a(href="mailto:papercutlabs@gmail.com?Subject=Start a project" target="_top") Papercutlabs@gmail.com
-      .exit-block.row.mb-30
+              
+              
+      hr.before_exit
+      .exit-block.row
         .logo.col-md-4
           img(src="assets/img/papercut_logo.png", alt="", width="34px" class="img-fluid")
           span © 2017 PapercutLabs
         .social-block.col-md-8
           a(href="https://www.facebook.com/PapercutLabs-371939749945680" target="_blank") Facebook
           a(href="https://twitter.com/papercutlab" target="_blank") Twitter
-          a(href="http://instagram.com/papercut.labs" target="_blank") Instagram
+          a(href="https://instagram.com/rtmdeb_design" target="_blank") Instagram
           
     
     
     script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js")
     script
       | var scroll = new SmoothScroll('a[href*="#"]');
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-    script(async, src="https://www.googletagmanager.com/gtag/js?id=UA-113530071-1")
-    
-    script
-      |  window.dataLayer = window.dataLayer || [];
-      |  function gtag(){dataLayer.push(arguments);}
-      |  gtag('js', new Date());
-      |  gtag('config', 'UA-113530071-1');
-    
-
-      
       
           
         

@@ -132,10 +132,11 @@ body
       position: relative
       float: left
       clear: left
+
 .footer
   .content
     margin: 0 auto
-    margin-bottom: 28px
+    margin-bottom: 30px
   hr
     border-bottom: 1px solid #c1c1c1
     width: 100px
@@ -148,7 +149,7 @@ body
     color: white
     padding: 12px 20px
     border-radius: 50px
-    margin: 0 0 auto
+    margin: 0 auto
     &:hover
       cursor: pointer
       border: 1px solid $br-blue
@@ -160,14 +161,12 @@ body
 .contact-block
   .img-block
     margin-bottom: -4px
-  border-bottom: 1px solid #cbcbcb
-  width: 100%
-  margin-top: -2px
+  // margin-top: -2px
   .company-info
     text-align: left
     .content-title
       padding-top: 50px
-      margin-left: 40%
+      margin-left: 100%
       font-size: 18px
       font-weight: 600
       letter-spacing: 2.5
@@ -182,6 +181,7 @@ body
 
 .exit-block
   display: inline-block
+  margin-bottom: 20px
   span
     margin-left: 35px
   .social-block
@@ -195,3 +195,180 @@ body
         color: $br-blue
         transition: all .3s ease-in-out
         cursor: pointer
+
+
+// media-queries
+
+@media only screen and (min-width: 1500px)
+  .menu
+    margin-bottom: 50px
+  .page-title
+    margin-bottom: 80px
+
+  .things-we-do
+    margin-bottom: 80px
+    .text-block
+      .block-title
+        margin-bottom: 40px
+      .text-block-group
+        margin-bottom: 50px
+        img
+          display: none
+
+
+  .value-added-1,.value-added-2
+    margin-bottom: 80px
+    .text-block
+      .text-block-group
+        margin-bottom: 60px
+  .footer
+    .text-block
+      margin-bottom: 50px
+      .block-title
+        margin-bottom: 20px
+        .content
+          margin-bottom: 20px
+        .cta
+          margin-top: 20px
+  hr.before_exit
+    margin: 0 0 20px 0
+  .exit-block
+    margin-bottom: 30px
+
+@media only screen and (min-width: 1000px)
+  .menu
+    margin-bottom: 50px
+  .page-title
+    margin-bottom: 80px
+
+  .things-we-do
+    margin-bottom: 80px
+    .text-block
+      .block-title
+        margin-bottom: 40px
+      .text-block-group
+        margin-bottom: 50px
+        img
+          display: none
+
+
+  .value-added-1,.value-added-2
+    margin-bottom: 80px
+    .text-block
+      .text-block-group
+        margin-bottom: 60px
+  .footer
+    .text-block
+      margin-bottom: 50px
+      .block-title
+        margin-bottom: 20px
+        .content
+          margin-bottom: 20px
+        .cta
+          margin-top: 20px
+  hr.before_exit
+    margin: 0 0 20px 0
+  .exit-block
+    margin-bottom: 30px
+
+
+
+@media only screen and (max-width: 500px)
+  body
+    .container
+      width: 90%
+      margin: 0 auto !important
+
+    .menu
+      margin-top: 0
+      position: absolute
+      top: 20px
+      left: 33%
+      .logo
+        margin: 0 auto
+        span
+          font-size: 18px
+        img
+          width: 34px
+          height: auto
+
+      .menu-title
+        display: none
+
+
+  .page-title
+    .text-block
+      text-align: center
+      .block-title
+        font-size: 16px
+        margin-bottom: 18px
+
+      .head-title
+        font-size: 18px
+        margin-bottom: 38px
+        line-height: 1.6
+
+    .img-block
+      width: 90%
+      height: auto
+      margin: 0 auto
+      margin-bottom: 45px
+
+  .things-we-do
+    .img-block
+      display: none
+    .text-block
+      text-align: center
+      .block-title
+        font-style: 15px
+        margin-bottom: 40px
+      .text-block-group
+        margin-bottom: 50px
+        .content-title
+          margin-bottom: 10px
+        .content p
+          font-size: 14px
+        img
+          margin-bottom: 30px
+
+  .value-added-1
+    margin-bottom: 0
+  .value-added-2
+    margin-bottom: 40px
+
+  .value-added-1,.value-added-2
+    text-align: center
+    .img-block
+      display: none
+    .text-block
+      .text-block-group
+        .content-title
+          img
+            width: 40px
+            height: auto
+          span
+            font-size: 18px
+        .content p
+            font-size: 14px
+
+  .footer
+    .text-block
+      .block-title
+        margin-bottom: 20px
+      .content p
+        font-size: 14px
+        margin-bottom: 30px
+    .contact-block
+      width: 100%
+      margin-bottom: 40px
+      .img-block
+          display: none
+      .company-info
+        margin-left: 10%
+        .content-title
+          margin: 0 auto
+          text-align: center
+  hr.before_exit
+    display: none !important
+  .exit-block
+    display: none !important
