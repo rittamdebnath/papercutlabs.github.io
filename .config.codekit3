@@ -1191,7 +1191,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/main-min.css",
 		"oF": 0,
 		"oS": 3
@@ -1403,26 +1403,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/js\/functions.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/functions-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/assets\/js\/jquery-2.1.4.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/jquery-2.1.4.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -1440,7 +1420,7 @@
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
@@ -1462,7 +1442,8 @@
 	"creationDate": 538905302,
 	"displayValue": "papercutlabs",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-obama"
+	"iconImageName": "meme-obama",
+	"lastBuiltDate": 539549517
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2858,7 +2839,7 @@
 	"esLintSourceType": 0,
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
-	"hideConfigFile": 0,
+	"hideConfigFile": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
