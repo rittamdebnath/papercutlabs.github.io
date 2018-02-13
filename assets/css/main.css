@@ -406,21 +406,21 @@ body {
   font-weight: 400; }
   .text-block .block-title {
     font-weight: 300;
-    font-size: 18;
+    font-size: 18px;
     letter-spacing: 2.5;
     text-transform: uppercase; }
   .text-block .content-title {
     font-weight: 600;
-    font-size: 18;
+    font-size: 18px;
     letter-spacing: 2.5;
     margin-bottom: 20px; }
   .text-block .content {
-    font-size: 16;
+    font-size: 16px;
     color: #707070;
     line-height: 2; }
   .text-block .head-title {
     font-weight: 300;
-    font-size: 34; }
+    font-size: 34px; }
 
 .menu {
   display: inline-block;
@@ -455,7 +455,7 @@ body {
       margin-left: 23px; }
 
 .value-added-1 .text-block .content-title, .value-added-2 .text-block .content-title {
-  font-size: 22;
+  font-size: 22px;
   letter-spacing: normal; }
   .value-added-1 .text-block .content-title img, .value-added-2 .text-block .content-title img {
     vertical-align: middle; }
@@ -726,3 +726,61 @@ body {
     display: none !important; }
   .exit-block {
     display: none !important; } }
+
+hr.width-50 {
+  width: 50px; }
+
+.page-title {
+  margin-bottom: 20px; }
+
+a.link {
+  margin: 0; }
+
+.showcase-section .showcase-group {
+  margin-bottom: 20px; }
+  .showcase-section .showcase-group .showcase-1 {
+    width: -webkit-calc(50% - 10px);
+    height: 440px;
+    background-position: center center;
+    background-size: cover;
+    float: left; }
+    .showcase-section .showcase-group .showcase-1:hover {
+      display: block;
+      position: relative;
+      top: 0;
+      left: 0;
+      width: -webkit-calc(50% - 10px);
+      height: auto;
+      background-color: #1783EF;
+      background-blend-mode: multiply;
+      transition: all .3s ease-out; }
+  .showcase-section .showcase-group .showcase-2 {
+    width: -webkit-calc(50% - 10px);
+    height: 440px;
+    background-color: #CCE3FF;
+    float: right;
+    margin-left: 20px; }
+    .showcase-section .showcase-group .showcase-2:hover {
+      display: block;
+      position: relative;
+      top: 0;
+      left: 0;
+      width: -webkit-calc(50% - 10px);
+      height: auto;
+      background-color: #1783EF;
+      background-blend-mode: multiply;
+      transition: all .3s ease-out; }
+
+.showcase-section .show-lg .showcase {
+  width: 100%;
+  height: 440px;
+  background-position: center center;
+  background-size: cover; }
+
+.showcase-section .content-section p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2; }
+
+.showcase-section .blue-bg {
+  background-color: #CCE3FF; }

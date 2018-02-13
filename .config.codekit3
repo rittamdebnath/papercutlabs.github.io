@@ -16,6 +16,13 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/Archive.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Archive.zip",
+		"oF": 0
+		},
 	"\/assets\/css\/1-tools\/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1186,6 +1193,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/4-pages\/our-work.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/4-pages\/our-work.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1208,6 +1228,17 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/assets\/img\/about_bg.png": {
+		"ft": 32768,
+		"iS": 681258,
+		"oA": 0,
+		"oAP": "\/assets\/img\/about_bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/brand.png": {
 		"ft": 32768,
@@ -1403,6 +1434,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/js\/func-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/func-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/assets\/js\/func.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/func-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -1420,7 +1471,7 @@
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
@@ -1430,6 +1481,38 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/pages\/about_us.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/pages\/about_us.html",
+		"oF": 0
+		},
+	"\/pages\/about_us.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/pages\/about_us.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/pages\/our_work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/pages\/our_work.html",
+		"oF": 0
+		},
+	"\/pages\/our_work.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/pages\/our_work.html",
 		"oF": 0,
 		"oS": 0
 		}
@@ -2152,7 +2235,7 @@
 			"optionString": "{'allowParens': false}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {

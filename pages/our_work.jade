@@ -3,9 +3,10 @@ html
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    link(rel="stylesheet", href="assets/css/main.css")
+    link(rel="stylesheet", href="../assets/css/main.css")
     link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600")
     link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
+    
     meta(name='description', content='PapercutLabs Design Agency uses design, digital and social media for Branding. We are the top digital branding agency and design studio in Hyderabad. Search Engine Optimization, Branding, Graphic Design, Social Media Marketing, Website Design and Development, Digital Design Marketing, Product Design,Print Design and Logo Design are the various services that we offer.')
     meta(name='description', content='PapercutLabs design Agency helps Brands and Businesses Gain a Competitive Advantage in the Connected World using digital, social media marketing and Design for Branding. Web and Mobile Design, Android Apps and iOS Development, Logo Design, Brand Strategy and Online Business Marketing are solutions we offer. We are the Best Digital Media Branding and Design agency in Hyderabad')
     link(rel='canonical', href='http://papercutlabs.co/')
@@ -29,87 +30,38 @@ html
     .container
       .menu.row
         .logo.col-md-4
-          img(src="assets/img/papercut_logo.png", alt="", width="34px" class="img-fluid")
+          a.link(href="../index.html")
+           img(src="../assets/img/papercut_logo.png", alt="", width="34px" class="img-fluid")
           span Papercutlabs
         .menu-title.col-md-8
-          a(href="index.html") Home
-          //- a(href="pages/our_work.html") Our Work
-          a(href="pages/about_us.html") About us
+          a(href="../index.html") Home
+          //- a(href="our_work.html") Our Work
+          a(href="about_us.html") About us
           a(href="https://goo.gl/forms/e26iLxYnuRgnQqqT2" target="_blank").btn Start a Project
     
     
       .page-title.row
         .text-block.col-md-5
-          p.block-title welcome to Papercut
           p.head-title
-           | We Help Brands & Businesses Gain a Competitive Advantage in the Connected World.
-        .img-block.col-md-7
-          img(src="assets/img/head_computer.png", alt="" class="img-fluid")
-          
-          
-      .things-we-do.row#thingsdo
-        .img-block.col-md-7
-          img(src="assets/img/things_we_do_block.png", alt="" class="img-fluid")
-        .text-block.col-md-5
-          .block-title things we do
-          .text-block-group
-            img(class="web_img img-fluid" src="assets/img/web.png", alt="webicon")
-            .content-title web and mobile design
-            .content
-              p Design resides at the center of who we are. We believe that good design equals great business, realizing a simple and efficient experience for your visitors.
-          .text-block-group
-            img(class="brand_img img-fluid" src="assets/img/brand.png", alt="brandicon")
-            .content-title Branding and strategy
-            .content
-              p We make your stories come to life and maintain constant growth for your business while creating your unique brand that falls in place with your vision.
-          .text-block-group
-            img(class="develop_img img-fluid" src="assets/img/develop.png", alt="development icon")
-            .content-title development
-            .content
-              p Front-end development, CMS integration or optimal back-end support – you know we’ve got you covered. We make sure that your site is fast and smart.
-
+           | Our Work
+          hr.width-50
       
+      .showcase-section.mb-80
+        .showcase-group.row
+          .showcase-1(style="background-image: url(https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=495705ce4fffc406c4c9fc09b13a6db9&auto=format&fit=crop&w=1050&q=80)")
+            
+          .showcase-2(style="background-image: url(https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=495705ce4fffc406c4c9fc09b13a6db9&auto=format&fit=crop&w=1050&q=80)")
+          
+        //- .showcase-group.showcase.show-lg.blue-bg.row
+        //-   .col-lg-12
+          
+        .showcase-group.row
+          .showcase-1(style="background-image: url(https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=h495705ce4fffc406c4c9fc09b13a6db9&auto=format&fit=crop&w=1050&q=80)")
+          .showcase-2
+          
+        
+        
       
-      .value-added-1.row
-        .text-block.col-md-5
-          .text-block-group
-            .content-title 
-              img(src="assets/img/call.png") 
-              span You can count on us
-
-            .content
-              p We value you. When you contact us, you can expect to hear back the same day. We work hard to make you look good.
-
-          .text-block-group
-            .content-title 
-              img(src="assets/img/calendar.png", alt="")
-              span We won't leave you hanging
-            .content
-              p We won’t just disappear after completing the project. We stick around with our long-term maintenance packages. Need to change something in the website at a moment’s notice? We got it covered
-        .img-block.col-md-7
-          img(src="assets/img/value_added_big_1.png", alt="" class="img-fluid")
-        
-        
-      .value-added-2.row
-        .img-block.col-md-7
-          img(src="assets/img/value_added_big_2.png", alt="" class="img-fluid")
-        .text-block.col-md-5
-          .text-block-group
-            .content-title 
-              img(src="assets/img/speed.png", alt="")
-              span We scale with you
-            .content
-              p Your development needs will change as your company and vision grows. Having a low? We scale down so you only pay for what you want to use.
-
-          .text-block-group
-            .content-title 
-              img(src="assets/img/mac.png", alt="")
-              span Top quality code
-            .content
-              p Nothing but top-notch, elegant and graceful code that actually does something. It is what fuels us and we wouldn’t have it any other way.
-
-        
-        
       .footer.row
         .text-block.col-md-12.text-center
           .block-title have a project in mind? let's chat
@@ -120,7 +72,7 @@ html
           a.cta(href="https://goo.gl/forms/e26iLxYnuRgnQqqT2" target="_blank") Start a Project
         .contact-block.row
           .img-block.col-md-6
-            img(src="assets/img/girl.png", alt="")
+            img(src="../../assets/img/girl.png", alt="")
           .company-info.col-md-4
             .content-title
               p contact
@@ -130,15 +82,15 @@ html
       hr.before_exit
       .exit-block.row
         .logo.col-md-4
-          img(src="assets/img/papercut_logo.png", alt="", width="34px" class="img-fluid")
+          img(src="../assets/img/papercut_logo.png", alt="", width="34px" class="img-fluid")
           span © 2017 PapercutLabs
         .social-block.col-md-8
           a(href="https://www.facebook.com/PapercutLabs-371939749945680" target="_blank") Facebook
           a(href="https://twitter.com/papercutlab" target="_blank") Twitter
-          a(href="https://instagram.com/rtmdeb_design" target="_blank") Instagram
+          a(href="https://instagram.com/papercut.labs" target="_blank") Instagram
           
     
-    script(type="text/javascript" src="assets/js/func-min.js")
+    script(type="text/javascript" src="../assets/js/func-min.js")
     script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js")
     script
       | var scroll = new SmoothScroll('a[href*="#"]');
